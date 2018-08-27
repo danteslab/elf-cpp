@@ -13,8 +13,8 @@ std::string toLowerCase(std::string s) {
 /**
 *	Convert an integer in string to integer.
 *
-*	@param n The number to convert.
-*	@return An integer of n.
+*	@param numString The number in string to convert.
+*	@return numString in int.
 *   COMPLEXITY = O(1)
 **/
 int parseInt(const std::string& numString, int base = 10) {
