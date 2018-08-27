@@ -1,10 +1,24 @@
 #include <bits/stdc++.h>
 
+/**
+*	Convert string to uppercase.
+*
+*	@param s The string to convert.
+*	@return A new string in uppercase.
+*   COMPLEXITY = O(n), n = |s|
+**/
 std::string toUpperCase(std::string s) {
 	transform(s.begin(), s.end(), s.begin(), std::ptr_fun <int, int>(toupper));
 	return s;
 }
 
+/**
+*	Convert string to lowercase.
+*
+*	@param s The string to convert.
+*	@return A new string in lowercase.
+*   COMPLEXITY = O(n), n = |s|
+**/
 std::string toLowerCase(std::string s) {
 	transform(s.begin(), s.end(), s.begin(), std::ptr_fun <int, int>(tolower));
 	return s;
