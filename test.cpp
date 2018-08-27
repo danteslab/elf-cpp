@@ -3,7 +3,6 @@
 #include <bits/stdc++.h>
 
 #include "elf.hpp"
-
 #include "catch.hpp"
 
 using namespace std;
