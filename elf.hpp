@@ -1,3 +1,8 @@
+/**
+*	elf.hpp
+*	Useful functions for Competitive Programming.
+*	@author Dante Calderón<@dantehemerson>
+**/
 #include <bits/stdc++.h>
 
 /**
