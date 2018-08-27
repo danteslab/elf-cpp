@@ -13,5 +13,12 @@ int main(int argc, char* argv[]) {
 	cout << upperCaseString << endl;
 	cout << "\tTest passed ✓" << endl << endl;
 
+	cout << "==*== toLowerCase Test:" << endl;
+	string stringToLowerCase = "HELLO, WeLCOme TO DISNEYLAND!";
+	string lowerCaseString = toLowerCase(stringToLowerCase);
+	cout << stringToLowerCase << " [ in lowercase is : ] " << endl; 
+	cout << lowerCaseString << endl;
+	cout << "\tTest passed ✓" << endl << endl;
+
 	return 0;
 }
