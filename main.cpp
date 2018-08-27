@@ -1,25 +1,13 @@
+#define CATCH_CONFIG_MAIN
+
 #include <bits/stdc++.h>
 
 #include "elf.hpp"
+
 #include "catch.hpp"
 
 using namespace std;
 
-int main(int argc, char* argv[]) {
-
-	cout << "==*== toUpperCase Test:" << endl;
-	string stringToUpperCase = "Hello World!";
-	string upperCaseString = toUpperCase(stringToUpperCase);
-	cout << stringToUpperCase << " [ in uppercase is : ] " << endl; 
-	cout << upperCaseString << endl;
-	cout << "\tTest passed ✓" << endl << endl;
-
-	cout << "==*== toLowerCase Test:" << endl;
-	string stringToLowerCase = "HELLO, WeLCOme TO DISNEYLAND!";
-	string lowerCaseString = toLowerCase(stringToLowerCase);
-	cout << stringToLowerCase << " [ in lowercase is : ] " << endl; 
-	cout << lowerCaseString << endl;
-	cout << "\tTest passed ✓" << endl << endl;
-
-	return 0;
+TEST_CASE("Hello World! to uppercase (pass)", "[single-file]") {
+	REQUIRE(toUpperCase("Hello World!") == "HELLO WORLD!");
 }
