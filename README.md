@@ -1,4 +1,5 @@
-# ELF-C++
+# ELF C++
+> Useful functions for C++
 
 ![](https://images.vexels.com/media/users/3/149898/isolated/preview/c69cc479799efa468a192dbe8b63d225-duende-con-dibujos-animados-de-tr-bol-by-vexels.png)
 ## Requirements
